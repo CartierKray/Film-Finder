@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+* body {
+  color: white;
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+}
+* body h1 {
+  margin: 25px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+* body nav {
+  display: flex;
+  padding: 25px;
+  justify-content: space-evenly;
+}
+* body main ul {
+  margin: 10px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 0.15fr 0.15fr 0.15fr 0.15fr;
+}
+* body main ul li {
+  margin: 10px;
+  list-style: none;
+}/*# sourceMappingURL=styles.css.map */

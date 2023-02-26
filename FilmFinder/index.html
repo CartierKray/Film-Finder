@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="movies.js"></script>
+    <script defer src="script.js"></script>
+    <title>Winc Film Finder</title>
+  </head>
+  <body>
+    <header>
+      <h1>Winc Film finder</h1>
+    </header>
+    <nav>
+      <input
+        type="radio"
+        id="latestButton"
+        name="Buttons"
+        value="latestMovies"
+      />
+      <label for="latestButton">Latest movies, 2014 or newer</label>
+
+      <input
+        type="radio"
+        id="avengerButton"
+        name="Buttons"
+        value="avengerMovies"
+      />
+      <label for="avengerMovies">Avenger Movies</label>
+
+      <input type="radio" id="xmenButton" name="Buttons" value="xmenMovies" />
+      <label for="xmenMovies">X-men Movies</label>
+
+      <input
+        type="radio"
+        id="princessButton"
+        name="Buttons"
+        value="princessMovies"
+      />
+      <label for="princessMovies">Princess Movies</label>
+
+      <input
+        type="radio"
+        id="batmanButton"
+        name="Buttons"
+        value="batmanMovies"
+      />
+      <label for="batmanMovies">Batman Movies</label>
+
+      <input type="text" id="zoekVeld" />
+    </nav>
+
+    <main>
+      <ul id="poster-images"></ul>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
